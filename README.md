@@ -1,5 +1,13 @@
 # Dark Mode Coding Challenge 🌙 &nbsp; ![medium](https://img.shields.io/badge/-Medium-yellow) ![time](https://img.shields.io/badge/%E2%8F%B0-30m-blue) 
 
+# Running The Project
+
+Just run: `yarn && yarn start`
+
+Live on Netlify: [Dark Mode Challenge](https://dark-mode-ts.netlify.app/)
+
+---
+
 &nbsp;
 # Goals / Outcomes ✨
 - Using state and global state
