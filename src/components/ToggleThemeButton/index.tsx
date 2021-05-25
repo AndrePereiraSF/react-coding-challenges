@@ -1,10 +1,12 @@
 import React, { useContext } from 'react'
-import { ToggleButton } from './style'
-import dark from '../../themes/dark'
-import light from '../../themes/light'
-import ThemeContext from '../../contexts/ThemeContext'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
+
+import { ToggleButton } from './style'
+import ThemeContext from '../../contexts/ThemeContext'
+
+import dark from '../../themes/dark'
+import light from '../../themes/light'
 
 const ToggleThemeButton: React.FC = () => {
   const { theme, setTheme } = useContext(ThemeContext)

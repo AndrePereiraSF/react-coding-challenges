@@ -1,12 +1,13 @@
 import React from 'react'
+
+import AppContainer from '../../components/AppContainer'
+import ButtonContainer from '../../components/ButtonContainer'
 import ColumnContainer from '../../components/ColumnContainer'
+import ToggleThemeButton from '../../components/ToggleThemeButton'
 import Column from '../../components/Column'
 import Level from '../../components/Level'
-import ToggleThemeButton from '../../components/ToggleThemeButton'
 import Title from '../../components/Title'
-import ButtonContainer from '../../components/ButtonContainer'
 import Button from '../../components/Button'
-import AppContainer from '../../components/AppContainer'
 
 const PageTwo: React.FC = () => {
   return (

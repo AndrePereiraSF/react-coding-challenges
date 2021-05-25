@@ -1,5 +1,6 @@
-import { Colors } from '../styles/variable'
 import { DefaultTheme } from 'styled-components'
+
+import { Colors } from '../styles/variable'
 
 const dark: DefaultTheme = {
   title: 'dark',

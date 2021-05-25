@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react'
-import Routes from './Routes'
-import ThemeContext from './contexts/ThemeContext'
 import { ThemeProvider } from 'styled-components'
+
+import ThemeContext from './contexts/ThemeContext'
 import GlobalStyle from './styles/GlobalStyle'
-import light from './themes/light'
 import Loading from './components/Loading'
+import Routes from './Routes'
+
+import light from './themes/light'
 
 export const App: React.FC = () => {
   const getCurrentTheme = () => {
     const currentTheme = JSON.parse(localStorage.getItem('theme') || '{}')
 
-    if(currentTheme.title) return currentTheme
+    if (currentTheme.title) return currentTheme
     else return light
   }
 

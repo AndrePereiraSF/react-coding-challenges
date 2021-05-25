@@ -1,5 +1,6 @@
 import { createContext, Dispatch, SetStateAction } from 'react'
 import { DefaultTheme } from 'styled-components'
+
 import light from '../themes/light'
 
 interface DefaultState {
