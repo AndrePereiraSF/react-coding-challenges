@@ -9,7 +9,9 @@ import Loading from './components/Loading'
 export const App: React.FC = () => {
   const getCurrentTheme = () => {
     const currentTheme = JSON.parse(localStorage.getItem('theme') || '{}')
-    return currentTheme || light
+
+    if(currentTheme.title) return currentTheme
+    else return light
   }
 
   const [theme, setTheme] = useState(getCurrentTheme)
